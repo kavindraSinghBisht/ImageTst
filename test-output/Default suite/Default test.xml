@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Kavindras-MBP" name="example.NewTest" tests="1" failures="0" timestamp="15 Jun 2017 10:10:43 GMT" time="10.745" errors="0">
+  <testcase name="main" time="10.729" classname="example.NewTest"/>
+</testsuite>
