@@ -21,7 +21,7 @@ public class NewTest {
 //				+ "Jenkins" + File.separator + "Home" + File.separator
 //				+ "workspace" + File.separator + "ankit"+ File.separator + "Driver"+ File.separator + "chromedriver");
 		//System.setProperty("webdriver.chrome.driver","/home/testing/Downloads/chromedriver");
-		System.setProperty("webdriver.chrome.driver","$JENKINS_HOME/chromedriver");
+		System.setProperty("webdriver.chrome.driver","Driver/chromedriver");
 		
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
