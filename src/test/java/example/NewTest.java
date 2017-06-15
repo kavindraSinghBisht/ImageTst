@@ -2,22 +2,26 @@ package example;
 
 import java.io.File;
 import java.sql.Date;
-import org.testng.annotations.Test;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Test;
 
 public class NewTest {
 	
 	@Test
 	public static void main() throws InterruptedException {
 
-//		System.setProperty("webdriver.chrome.driver", File.separator + "Users"
-//				+ File.separator + "Shared" + File.separator
-//				+ "Jenkins" + File.separator + "Home" + File.separator
-//				+ "workspace" + File.separator + "ankit"+ File.separator + "Driver"+ File.separator + "chromedriver");
+		System.setProperty("webdriver.chrome.driver", File.separator + "Users"
+				+ File.separator + "Shared" + File.separator
+				+ "Jenkins" + File.separator + "Home" + File.separator
+				+ "workspace" + File.separator + "ankit"+ File.separator + "Driver"+ File.separator + "chromedriver");
 		//System.setProperty("webdriver.chrome.driver","");
+				
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		// check for server image
