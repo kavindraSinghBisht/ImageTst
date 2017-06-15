@@ -17,8 +17,7 @@ public class NewTest {
 //				+ File.separator + "Shared" + File.separator
 //				+ "Jenkins" + File.separator + "Home" + File.separator
 //				+ "workspace" + File.separator + "ankit"+ File.separator + "Driver"+ File.separator + "chromedriver");
-		System.setProperty("webdriver.chrome.driver","https://staging.tripoto.com/jenkins/job/ImageServerError/ws/Driver/chromedriver");
-		
+		System.setProperty("webdriver.chrome.driver","/home/testing/Downloads/chromedriver");
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		// check for server image
