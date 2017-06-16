@@ -20,8 +20,8 @@ public class NewTest {
 //				+ "Jenkins" + File.separator + "Home" + File.separator
 //				+ "workspace" + File.separator + "ankit"+ File.separator + "driver"+ File.separator + "chromedriver");
 		
-      System.setProperty("webdriver.chrome.driver","/home/Downloads/chromedriver");
-		
+      System.setProperty("webdriver.chrome.driver","/home/testing/Downloads/chromedriver");
+	
 		
 		ChromeDriver driver = new ChromeDriver();
 		// check for server image
