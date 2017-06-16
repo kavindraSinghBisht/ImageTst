@@ -6,6 +6,7 @@ import java.sql.Date;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
 public class NewTest {
@@ -21,7 +22,9 @@ public class NewTest {
 //		 + "workspace" + File.separator + "ankit"+ File.separator + "driver"+
 //		 File.separator + "chromedriver");
 
-		System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/ImageTestServer1/Driver/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/ImageTestServer1/Driver/chromedriver_64");
+	    DesiredCapabilities capabilities=DesiredCapabilities.chrome();
+	    capabilities.setCapability("marionette", true);
 
 //		ChromeDriverManager.getInstance().setup();
 		 
