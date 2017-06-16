@@ -19,15 +19,10 @@ public class NewTest {
 	public static void main() throws InterruptedException {
 		System.out.println("kavin test");
 
-//		System.setProperty("webdriver.chrome.driver", File.separator + "Users"
-//				+ File.separator + "Shared" + File.separator
-//				+ "Jenkins" + File.separator + "Home" + File.separator
-//				+ "workspace" + File.separator + "ankit"+ File.separator + "Driver"+ File.separator + "chromedriver");
 		System.setProperty("webdriver.chrome.driver","/home/testing/Downloads/chromedriver");
-		//System.setProperty("webdriver.chrome.driver","var/lib/jenkins/workspace/ImageTestServer/Driver");
+		
 		
 		ChromeDriver driver = new ChromeDriver();
-		driver.manage().deleteAllCookies();
 		// check for server image
 		Thread.sleep(4000L);
 		driver.get("https://image.tripotoo.com/image/generate/ss/img/403189/TripDocument/1497424269_img_8.jpg");
