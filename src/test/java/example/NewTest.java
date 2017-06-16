@@ -11,6 +11,8 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
+import com.gargoylesoftware.htmlunit.javascript.host.URL;
+
 public class NewTest {
 	
 	@Test
@@ -21,7 +23,8 @@ public class NewTest {
 //				+ "Jenkins" + File.separator + "Home" + File.separator
 //				+ "workspace" + File.separator + "ankit"+ File.separator + "Driver"+ File.separator + "chromedriver");
 		//System.setProperty("webdriver.chrome.driver","/home/testing/Downloads/chromedriver");
-		System.setProperty("webdriver.chrome.driver","Driver/chromedriver");
+		
+		System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/ImageTestServer/Driver/chromedriver");
 		
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
