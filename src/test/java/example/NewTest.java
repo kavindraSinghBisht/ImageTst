@@ -21,7 +21,7 @@ public class NewTest {
 //		 + "workspace" + File.separator + "ankit"+ File.separator + "driver"+
 //		 File.separator + "chromedriver");
 
-		System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/ImageTestServer/Driver/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/ImageTestServer1/Driver/chromedriver");
 
 //		ChromeDriverManager.getInstance().setup();
 		 
