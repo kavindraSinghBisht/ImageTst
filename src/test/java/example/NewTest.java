@@ -19,8 +19,14 @@ public class NewTest {
 	public static void main() throws InterruptedException {
 		System.out.println("kavin testkavi");
 		System.out.println("kavin testkavi");
+//		
+//		//System.setProperty("webdriver.chrome.driver", File.separator + "Users"
+//				+ File.separator + "Shared" + File.separator
+//				+ "Jenkins" + File.separator + "Home" + File.separator
+//				+ "workspace" + File.separator + "ankit"+ File.separator + "driver"+ File.separator + "chromedriver");
+//		
 
-		System.setProperty("webdriver.chrome.driver","/home/testing/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/ImageTestServer/Driver");
 		
 		
 		ChromeDriver driver = new ChromeDriver();
