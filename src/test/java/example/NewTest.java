@@ -1,7 +1,6 @@
 package example;
 
-import io.github.bonigarcia.wdm.ChromeDriverManager;
-
+import java.io.File;
 import java.sql.Date;
 
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,9 +21,9 @@ public class NewTest {
 //		 + "workspace" + File.separator + "ankit"+ File.separator + "driver"+
 //		 File.separator + "chromedriver");
 
-		//System.setProperty("webdriver.chrome.driver","/home/testing/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/ImageTestServer/Driver/chromedriver");
 
-		ChromeDriverManager.getInstance().setup();
+//		ChromeDriverManager.getInstance().setup();
 		 
 		ChromeDriver driver = new ChromeDriver();
 		// check for server image
