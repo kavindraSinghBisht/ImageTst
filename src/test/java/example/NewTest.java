@@ -17,7 +17,8 @@ public class NewTest {
 	
 	@Test
 	public static void main() throws InterruptedException {
-		System.out.println("kavin test");
+		System.out.println("kavin testkavi");
+		System.out.println("kavin testkavi");
 
 		System.setProperty("webdriver.chrome.driver","/home/testing/Downloads/chromedriver");
 		
