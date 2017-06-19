@@ -15,13 +15,13 @@ public class NewTest {
 	public static void main() throws InterruptedException {
 		System.out.println("Start");
 
-		 System.setProperty("webdriver.chrome.driver", File.separator +
-		 "Users"
-		 + File.separator + "Shared" + File.separator		 + "Jenkins" + File.separator + "Home" + File.separator
-		 + "workspace" + File.separator + "ankit"+ File.separator + "driver"+
-		 File.separator + "chromedriver");
+//		 System.setProperty("webdriver.chrome.driver", File.separator +
+//		 "Users"
+//		 + File.separator + "Shared" + File.separator		 + "Jenkins" + File.separator + "Home" + File.separator
+//		 + "workspace" + File.separator + "ankit"+ File.separator + "driver"+
+//		 File.separator + "chromedriver");
 
-//		System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/ImageTestServer1/Driver/chromedriver_64");
+		System.setProperty("webdriver.chrome.driver","/var/lib/jenkins/workspace/ImageTestServer1/Driver/chromedriver_64");
 //	    DesiredCapabilities capabilities=DesiredCapabilities.chrome();
 //	    capabilities.setCapability("marionette", true);
 
